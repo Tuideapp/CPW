@@ -1,0 +1,40 @@
+status (integer:1)
+message (string:500)
+
+name (string:200)
+code (string:10)
+customerType (string:20)
+billAddress (string:200)
+billCity (string:200)
+billState (string:200)
+billZipCode (string:10)
+billCountry (string:200)
+shipAddress (string:200)
+shipCity (string:200)
+shipState (string:200)
+shipZipCode (string:10)
+shipCountry (string:200)
+emailForInvoices (string:200)
+emailForStatements (string:200)semicolons.
+phone (string:20)
+fax (string:20)
+defaultPrice (string:1)
+priceBMarkup
+priceSellFastMarkup
+creditLimit (decimal:10,2)
+balance (decimal: 10,2)
+lastSaleDate (date)
+lastPaymentDate (date)
+customerSince (date)
+paymentTerms (string:50)
+chargeFuelSurcharge (boolean)
+chargeTax (boolean)
+creditHold (boolean)
+salespersonForFlowers
+name (string:200)
+phone (string:20)
+email: salesperson's e-mail.
+salespersonForPlants
+name (string:200)
+phone (string:20)
+email

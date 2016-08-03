@@ -130,8 +130,8 @@
     ---------------------*/
     $("#map").gmap3({
         marker:{     
-        address:"44 W 66th St, New York, NY", 
-        options:{ icon: "img/assets/marker.png"}},
+        address:"Cl. 108 #75-48 Medellín, Antioquia Colombia", 
+        options:{ icon: "img/assets/marker-45-80.png"}},
         map:{
         options:{
         styles: [ {
